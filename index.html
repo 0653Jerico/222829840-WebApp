@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <style>
+        * {
+            text-decoration: none;
+            list-style: none;
+        }
+        ul {
+            display: flex;
+            justify-content: right;
+        }
+
+        li a {
+            margin-right: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <section>
+            <img style="margin-left: 25%;" src="webpic.jpg" alt="This is a photo about web." width="500px" height="300px">
+        </section>
+
+        <form method="post">
+            <label for="name">Enter your Name: </label>
+            <input type="text" id="name" placeholder="e.g.Jerico Jones Edic" required><br>
+
+            <label for="ps">Enter your Password: </label>
+            <input type="password" id="ps" maxlength="16" minlength="8" placeholder="12345678" required><br>
+
+
+            <h4>Gender</h4>
+            <input type="radio" name="male-female" id="male">
+            <label for="male">Male</label>
+
+            <input type="radio" name="male-female" id="female">
+            <label for="female">Female</label><br>
+
+            <h4>Terms and Agreements</h4>
+            <input type="checkbox" name="terms-and-agreements" id="yes" required>
+            <label for="yes">Yes</label>
+            <input type="checkbox" name="terms-and-agreements" id="no" required>
+            <label for="no">No</label>
+            <br><br>
+            <button>Submit</button><br><br>
+        </form>
+
+        <section>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>City</th>
+                </tr>
+                <tr>
+                    <td>----------------</td>
+                    <td>----------------</td>
+                    <td>----------------</td>
+                </tr>
+                <tr>
+                    <td>John</td>
+                    <td>25</td>
+                    <td>New York</td>
+                </tr>
+                <tr>
+                    <td>Jane</td>
+                    <td>30</td>
+                    <td>Los Angeles</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <video src=""></video>
+        </section>
+
+        <section>
+            <figure>
+                <img src="collaboration.jpg" alt="This is a picture about team members collaborating" width="600px"
+                    height="400px">
+                <figcaption>This is a picture of team members collaborating with each other.</figcaption>
+            </figure>
+        </section>
+    </main>
+</body>
+<br>
+<footer>Author: Jerico Jones Edic</footer>
+
+</html>

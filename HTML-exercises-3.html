@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,26 +8,29 @@
     <title>HTML Exercise 3</title>
     <link rel="stylesheet" href="Assets/styles/html3_styles.css">
 </head>
+
 <body>
     <header>
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#form">Form</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#map">Map</a></li>
+                <li><a href="#twitter-embed">Twitter</a></li>
+                <li><a href="#audio-and-video">Pictures and Videos</a></li>
             </ul>
         </nav>
     </header>
 
     <section id="home">
         <h3><abbr title="Responsive Web Design">RWD</abbr></h3>
-        <img src="" alt="This is a photo of the Responsive Web Desgin">
+        <img src="Assets/images/ethan-marcotte.jpg" alt="This is a photo of Ethan Marcotte">
         <p><cite>Responsive Web Design</cite> was coined by Ethan Marcotte in May 2010.</p>
     </section>
-    
+
     <section id="form">
+        <h3>Personal Information</h3>
         <form action="">
-            <h3>Personal Information</h3>
             <label for="name">Name: </label>
             <input type="text" id="name" placeholder="Jerico Jones Edic" required>
 
@@ -35,13 +39,50 @@
 
             <label for="address">Address: </label>
             <input type="text" id="address" placeholder="Optional">
+
+            <button value="submit">Submit</button>
         </form>
+
+        <section id="map">
+            <h3>Global Map</h3>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8002526.874234009!2d117.3273020588971!3d11.66008381509946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x324053215f87de63%3A0x784790ef7a29da57!2sPhilippines!5e0!3m2!1sen!2sus!4v1706778236698!5m2!1sen!2sus"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <section id="twitter-embed">
+            <h3>Twitter SpaceX</h3>
+            <blockquote class="twitter-tweet">
+                <p lang="en" dir="ltr">At dawn from the gateway to Mars, the launch of Starship’s second flight test <a
+                        href="https://t.co/ffKnsVKwG4">pic.twitter.com/ffKnsVKwG4</a></p>&mdash; SpaceX (@SpaceX) <a
+                    href="https://twitter.com/SpaceX/status/1732824684683784516?ref_src=twsrc%5Etfw">December 7,
+                    2023</a>
+            </blockquote>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </section>
+
     </section>
 
-    <section id="contact">
+    <section id="audio-and-video">
+        <h3>Create a website in 1 minute</h3>
+        <video controls muted autoplay loop>
+            <source src="/Assets/videos/Create_a_site_in_1_minute.mp4">
+            <source src="/Assets/videos/Create_a_site_in_1_minute.mp4">
+            This browser does not support HTML5 video.
+        </video>
+    </section>
 
+    <section>
+        <h3>Listen to this if you're having a hard time.</h3>
+        <audio controls muted autoplay loop>
+            <source src="/Assets/audio/Nightcore_let_me_die.mp3">
+            <source src="/Assets/audio/Nightcore_let_me_die.mp3">
+            This browser does not support HTML5 audio.
+        </audio>
     </section>
 
     <script src="Assets/script/html3_script.js"></script>
 </body>
+
 </html>

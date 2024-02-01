@@ -1,0 +1,15 @@
+* {
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: none;
+}
+
+ul {
+    display: flex;
+    justify-content: right;
+}
+
+li a {
+    margin-right: 30px;
+}

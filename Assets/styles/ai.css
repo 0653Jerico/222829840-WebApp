@@ -1,0 +1,21 @@
+body{
+    background: url(/Assets/images/Ai.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    image-rendering: optimizeQuality;
+    color: #fff;
+}
+
+a{
+    color: violet;
+}
+
+.container{
+    margin-top: 50px;
+}
+
+dt{
+    font-size: 19px;
+}

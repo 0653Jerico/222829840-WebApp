@@ -1,0 +1,1 @@
+git log --since="2024-01-08" --until="2024-01-13" --numstat >> edic.txt

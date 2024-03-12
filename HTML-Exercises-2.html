@@ -6,30 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Exercise 2</title>
-    <style>
-        * {
-            text-decoration: none;
-            list-style: none;
-        }
-
-        ul {
-            display: flex;
-            justify-content: right;
-        }
-
-        li a {
-            margin-right: 30px;
-        }
-
-        video{
-            width: 600px;
-            height: 400px;
-        }
-    </style>
+    <link rel="stylesheet" href="Assets/styles/html2_styles.css">
 </head>
 
 <body>
-    <header>
+    <header class="bottom-line">
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
@@ -38,14 +19,14 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main class="bottom-line">
 
-        <section>
+        <section class="bottom-line">
             <h3>Web Development</h3>
             <img src="/Assets/images/webpic.jpg" alt="This is a photo about web.">
         </section>
 
-        <form method="post">
+        <form method="get" class="bottom-line">
             <label for="name">Enter your Name: </label>
             <input type="text" id="name" placeholder="e.g.Jerico Jones Edic" required><br>
 
@@ -69,7 +50,7 @@
             <button>Submit</button><br><br>
         </form>
 
-        <section>
+        <section class="table">
             <h3>Table</h3>
             <table>
                 <tr>
@@ -95,7 +76,7 @@
             </table>
         </section>
 
-        <section>
+        <section class="bottom-line">
             <h3>Create a website in 1 minute</h3>
             <video controls muted autoplay loop>
                 <source src="/Assets/videos/Create_a_site_in_1_minute.mp4">

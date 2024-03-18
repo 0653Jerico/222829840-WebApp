@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Classes</title>
+  </head>
+  <body>
+    <style type="text/css">
+      .background {
+        background: lightgrey;
+        width: 200px;
+        height: 400px;
+        position: relative;
+        margin: auto;
+        top: 50px;
+        border-radius: 10px;
+      }
+      .head {
+        background: yellow;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        position: absolute;
+        top: 10px;
+        left: 65px;
+      }
+      .eyeball {
+        background: white;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        position: absolute;
+        top: 20px;
+        left: 25px;
+      }
+      .pupil {
+        background-color: black;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        position: absolute;
+        top: 5px;
+        left: 5px;
+      }
+      .beak {
+        width: 0;
+        height: 0;
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-top: 20px solid orange;
+        position: absolute;
+        top: 30px;
+        left: 50px;
+        transform: rotate(-90deg);
+      }
+      .body {
+        background-color: yellow;
+        width: 150px;
+        height: 100px;
+        position: absolute;
+        top: 80px;
+        left: 25px;
+        border-radius: 50px;
+      }
+      .wing {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid transparent;
+        border-right: 40px solid #ffd580;
+        position: absolute;
+        top: 12px;
+        left: 20px;
+      }
+      .drumsticks {
+        position: absolute;
+        top: 170px;
+        left: 50px;
+      }
+      .drumstick,
+      .drumstick-right {
+        width: 5px;
+        height: 60px;
+        background: brown;
+        position: absolute;
+      }
+      .drumstick::before,
+      .drumstick-right::before {
+        content: "";
+        width: 20px;
+        height: 6px;
+        background: brown;
+        position: absolute;
+        bottom: 0;
+      }
+      .drumstick {
+        transform: rotate(20deg);
+        left: 10px;
+      }
+      .drumstick-right {
+        transform: rotate(-10deg);
+        left: 90px;
+      }
+    </style>
+    <div class="canvas background">
+      <div ckass="air background"></div>
+      <div class="head">
+        <div class="eyeball">
+          <span class="pupil"></span>
+        </div>
+        <div class="beak">
+          <strong></strong>
+        </div>
+      </div>
+      <div class="body">
+        <div class="wing">
+          <strong></strong>
+        </div>
+      </div>
+      <div class="drumsticks">
+        <div class="drumstick">
+          <br />
+        </div>
+        <div class="drumstick-right">
+          <br />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

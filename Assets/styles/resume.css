@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: none;
+    box-sizing: border-box;
+}
+
+body{
+    background: #1b1c1e;
+    color: #f1f1f1;
+}
+
+.per-info{
+    text-align: center;
+}
+
+.edu_back{
+    max-width: 100%;
+    width: 780px;
+}
+
+div{
+    margin: 5rem 0px 5rem;
+}
+
+h2{
+    text-align: center;
+}
+
+hr{
+    padding: 1rem 0px 1rem;
+}
